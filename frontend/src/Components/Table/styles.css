@@ -1,0 +1,33 @@
+.table-header {
+  width: 100;
+  border-bottom: 1px solid #EAEAEA;
+  padding: 18px 12px;
+}
+
+.table-header, .table-row {
+  display: flex;
+  width: 100%;
+}
+
+.table-cell-header-value {
+  font-weight: 700;
+}
+
+.table-cell-header-value, .table-cell-value {
+  font-size: 18px;
+}
+
+.table-row {
+  background-color: white;
+  padding: 12px;
+}
+
+.table-row:hover {
+  /* background-color: indigo; */
+  filter: brightness(80%);
+} 
+
+.table-row-btn-delete:hover{
+  cursor: pointer;
+  color: grey;
+}

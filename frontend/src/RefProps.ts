@@ -1,0 +1,1 @@
+export type RefProps<T> = React.LegacyRef<T>;

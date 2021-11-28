@@ -1,0 +1,19 @@
+.submenu-item {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-top: 18px;
+  height: 40px;
+}
+
+.submenu-item:first-of-type {
+  margin-top: 0;
+}
+
+.submenu-item:hover {
+  border: 0;
+  border-radius: 12px;
+  background: #454545;
+  color: white;
+}

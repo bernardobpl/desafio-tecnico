@@ -1,0 +1,17 @@
+.button-component {
+  width: 100%;
+  height: 50px;
+  min-height: 50px;
+  background: #454545;
+  border: 1px solid white;
+  color: white;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-component:hover{
+  background: white;
+  border: 1px solid #454545;
+  color: #454545;
+}

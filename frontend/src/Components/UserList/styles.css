@@ -1,0 +1,13 @@
+.userlist-container {
+  flex: 1;
+  padding: 50px;
+}
+
+.userlist-title {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.userlist-table {
+  margin-top: 35px;
+}

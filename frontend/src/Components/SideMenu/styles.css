@@ -1,0 +1,22 @@
+.sidemenu-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 300px;
+  max-width: 300px;
+  background-color: #3a3a3a;
+  align-items: center;
+  padding: 70px 25px 0 25px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidemenu-title {
+  color: white;
+  font-weight: 900;
+  font-size: 51px;
+}
+
+.sidemenu-btn-create-user {
+  margin-top: 110px;
+}

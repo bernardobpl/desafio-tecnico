@@ -1,0 +1,8 @@
+.submenu-container {
+  flex: 1;
+  background: #EAEAEA;
+  border-radius: 12px 12px 0px 0px;
+  width: 100%;
+  margin-top: 26px;
+  padding: 36px 22px;
+}

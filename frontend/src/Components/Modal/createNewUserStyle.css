@@ -1,0 +1,64 @@
+.modal-createNewUser-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 890px;
+  height: 650px;
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.modal-createNewUser-header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.modal-createNewUser-title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.modal-createNewUser-close-button {
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
+}
+
+.modal-createNewUser-close-button path{
+  stroke: #EAEAEA;
+}
+
+.modal-createNewUser-close-button:hover path{
+  stroke: black;
+}
+
+.modal-createNewUser-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  color: #454545;
+  margin-top: 100px;
+  margin-left: 16px;
+}
+
+.modal-createNewUser-input {
+  width: 531px;
+  height: 34px;
+  background: #EAEAEA;
+  border-radius: 12px;
+  border: 1px solid #454545;
+  margin-top: 20px;
+  padding: 8px;
+}
+
+.modal-createNewUser-grow-div {
+  flex: 1;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.modal-createNewUser-button {
+  max-width: 250px;
+}
