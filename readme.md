@@ -25,27 +25,27 @@ Nesse desafio foi proposto um protótipo de uma tela que deveria ser integrada a
 - separei o uso da api em 2 partes, service onde é executado o request e manager onde é feita a chamada e se necessário fazer algum tratamento de dados
 ## Como rodar a api
 dentro da pasta do projeto, você vai rodar
-$ yarn
+- $ yarn
 para baixar as dependÊncias, e 
-$ yarn start
+- $ yarn start
 para rodar a api em localhost:4000
 
 ## Como rodar o frontend
 dentro da pasta do projeto, entrar na pasta frontend e rodar
-$ yarn
+- $ yarn
 para baixar as dependêcias, e
-$ yarn start 
+- $ yarn start 
 para rodar a UI em localhost:3000
 
 ## Como testar
-Ao entrar na página, clicar no botão "Create new user" para abrir o modal
-O modal pode ser fechado pelo ícone ou clicando no overlay ao fundo
-No modal terá um input para colocar o nome do novo usuário a ser criado
-Digitar o nome a ser criado e clicar no botão para criar
-O modal irá fechar e a tabela de usuários irá atualizar com o novo usuário criado
-Cada linha da tabela representa um usuário e ao final da linha existe uma lixeira usada como botão de excluir
-Ao clicar na lixeira a tabela irá atualizar novamente
-Ao recarregar a página os valores se mantém
+- Ao entrar na página, clicar no botão "Create new user" para abrir o modal
+- O modal pode ser fechado pelo ícone ou clicando no overlay ao fundo
+- No modal terá um input para colocar o nome do novo usuário a ser criado
+- Digitar o nome a ser criado e clicar no botão para criar
+- O modal irá fechar e a tabela de usuários irá atualizar com o novo usuário criado
+- Cada linha da tabela representa um usuário e ao final da linha existe uma lixeira usada como botão de excluir
+- Ao clicar na lixeira a tabela irá atualizar novamente
+- Ao recarregar a página os valores se mantém
 
 ## Observações
 Existem 3 requisições sendo feitas para api que devolve à página uma nova lista de usuários: 
