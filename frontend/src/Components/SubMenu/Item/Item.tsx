@@ -1,6 +1,7 @@
 import "./styles.css";
 
 export interface SubMenuItem {
+  id?: number;
   title: string;
 }
 

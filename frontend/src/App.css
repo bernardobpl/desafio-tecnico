@@ -3,3 +3,9 @@
   display: flex;
   overflow: hidden;
 }
+
+.MuiModal-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
